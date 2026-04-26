@@ -10,7 +10,7 @@ I build across a few lanes: full-stack web apps, developer tooling, game engine 
 - **Finance tooling** - Vault, a personal finance dashboard with Plaid integrations, budgets, analytics, recurring charge detection, alerts, and secure token handling.
 - **Game tech** - Kuma, a lightweight C++ game engine with Vulkan rendering, SDL3 platform code, resource loading, input, timing, and a growing core architecture.
 - **Fallout 4 modding** - F4SE plugins, runtime patching, crash fixes, performance work, reverse engineering, and compatibility across OG/NG/AE runtimes.
-- **Developer workflow** - CLI tools, AI workflow experiments, automation, and small utilities that make daily development less annoying.
+- **Developer workflow** - CLI tools, workflow experiments, automation, and small utilities that make daily development less annoying.
 
 ## Current focus
 
