@@ -106,7 +106,7 @@ I build across a few lanes — **developer tooling**, **ML systems**, **game tec
   </tr>
 </table>
 
-**Also worth a look** — [interpreter-rust](https://github.com/northaxosky/interpreter-rust) (a Lox tree-walk interpreter in Rust, *Crafting Interpreters*) · [Vault](https://github.com/northaxosky/Vault) (a Next.js + Plaid personal-finance dashboard) · [HouseRules](https://github.com/northaxosky/HouseRules) (a curated F4SE/MCM config mod) · [dot-files](https://github.com/northaxosky/dot-files) (cross-platform Windows + WSL dotfiles via chezmoi).
+**Also worth a look** — [interpreter-rust](https://github.com/northaxosky/interpreter-rust) (a Lox tree-walk interpreter in Rust, *Crafting Interpreters*) · [Vault](https://github.com/northaxosky/Vault) (a Next.js + Plaid personal-finance dashboard) · [HouseRules](https://github.com/northaxosky/HouseRules) (a curated F4SE/MCM config mod).
 
 ## 🔭 Currently focused on
 
