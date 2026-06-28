@@ -10,6 +10,7 @@
   <a href="https://www.linkedin.com/in/kuzeygok/"><img src="https://img.shields.io/badge/LinkedIn-kuzeygok-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://x.com/MuteBusterr"><img src="https://img.shields.io/badge/X-MuteBusterr-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
   <a href="https://www.nexusmods.com/profile/MuteBustNut"><img src="https://img.shields.io/badge/NexusMods-MuteBustNut-D98F40?style=flat-square&logo=nexusmods&logoColor=white" alt="NexusMods"/></a>
+  <a href="https://github.com/northaxosky?tab=followers"><img src="https://img.shields.io/github/followers/northaxosky?style=flat-square&logo=github&logoColor=white&color=3b82f6&label=Followers" alt="Followers"/></a>
   <img src="https://komarev.com/ghpvc/?username=northaxosky&style=flat-square&color=3b82f6" alt="Profile views"/>
 </p>
 
@@ -48,38 +49,64 @@ I build across a few lanes — **developer tooling**, **ML systems**, **game tec
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=northaxosky&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="Kuzey's GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=northaxosky&layout=compact&langs_count=8&exclude_repo=fallout4-re&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=northaxosky&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Kuzey's GitHub stats"/>
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=northaxosky&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top languages"/>
 </p>
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=northaxosky&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img height="175" src="https://streak-stats.demolab.com/?user=northaxosky&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </p>
-
-> Top-languages excludes `fallout4-re` (a ~98&nbsp;MB reverse-engineering source dump) so the breakdown reflects code I actually write.
 
 ## 🚀 Featured projects
 
-<p align="center">
-  <a href="https://github.com/northaxosky/overseer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=northaxosky&repo=overseer&theme=tokyonight&hide_border=true" alt="overseer"/></a>
-  <a href="https://github.com/northaxosky/sky-ai"><img src="https://github-readme-stats.vercel.app/api/pin/?username=northaxosky&repo=sky-ai&theme=tokyonight&hide_border=true" alt="sky-ai"/></a>
-</p>
-<p align="center">
-  <a href="https://github.com/northaxosky/Kuma"><img src="https://github-readme-stats.vercel.app/api/pin/?username=northaxosky&repo=Kuma&theme=tokyonight&hide_border=true" alt="Kuma"/></a>
-  <a href="https://github.com/Dear-Modding-FO4/Addictol"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Dear-Modding-FO4&repo=Addictol&theme=tokyonight&hide_border=true" alt="Addictol"/></a>
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🦀 <a href="https://github.com/northaxosky/overseer">overseer</a></h3>
+      <p>A Fallout&nbsp;4 mod manager in Rust, on the Mod&nbsp;Organizer&nbsp;2 model: non-destructive, crash-safe <b>transactional</b> deploys, real <code>Plugins.txt</code> load order, a <code>doctor</code> health check, and a <code>ratatui</code> TUI over a UI-agnostic core.</p>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+      <img src="https://img.shields.io/github/stars/northaxosky/overseer?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/northaxosky/sky-ai">sky-ai</a></h3>
+      <p>From-scratch language models: a clean-room <b>GPT-2 (124M)</b> that matches OpenAI bit-for-bit, plus a modern <code>skyai</code> stack scaling toward <b>~1.5B</b>, on a hand-written training harness (Flash Attention, bf16, <code>torch.compile</code>).</p>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+      <img src="https://img.shields.io/github/stars/northaxosky/sky-ai?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🐻 <a href="https://github.com/northaxosky/Kuma">Kuma</a></h3>
+      <p>A lightweight C++ game engine: <b>Vulkan</b> rendering, an SDL3 platform layer, resource loading, input, and timing over a growing core architecture.</p>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+      <img src="https://img.shields.io/badge/Vulkan-A41E22?style=flat-square&logo=vulkan&logoColor=white" alt="Vulkan"/>
+      <img src="https://img.shields.io/github/stars/northaxosky/Kuma?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🩹 <a href="https://github.com/Dear-Modding-FO4/Addictol">Addictol</a></h3>
+      <p>Combined Fallout&nbsp;4 engine fixes — performance, stability, and crash patches — built with the <b>Dear&nbsp;Modding&nbsp;FO4</b> group. My most-starred project.</p>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+      <img src="https://img.shields.io/github/stars/Dear-Modding-FO4/Addictol?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/northaxosky/sky-cli">sky-cli</a></h3>
+      <p>A Claude&nbsp;Code-style coding-agent CLI in Rust: an LLM agent loop with tool calling, over OpenRouter.</p>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+      <img src="https://img.shields.io/github/stars/northaxosky/sky-cli?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎨 <a href="https://github.com/northaxosky/fallout4-community-shaders">fallout4-community-shaders</a></h3>
+      <p>A Community Shaders port for Fallout&nbsp;4 — bringing modern rendering features to the Creation engine.</p>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+      <img src="https://img.shields.io/badge/HLSL-2A0845?style=flat-square" alt="HLSL"/>
+      <img src="https://img.shields.io/github/stars/northaxosky/fallout4-community-shaders?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
+    </td>
+  </tr>
+</table>
 
-- **[overseer](https://github.com/northaxosky/overseer)** — a Fallout 4 mod manager in Rust, modeled on Mod Organizer 2: non-destructive, crash-safe **transactional** deploys, real `Plugins.txt` load-order management, a `doctor` health checker, and a `ratatui` TUI over a UI-agnostic core.
-- **[sky-ai](https://github.com/northaxosky/sky-ai)** — a from-scratch language-model project: a clean-room **GPT-2 (124M)** that matches OpenAI bit-for-bit, plus a modern `skyai` stack scaling toward **~1.5B**, with a hand-written training harness (Flash Attention, bf16, `torch.compile`).
-- **[Kuma](https://github.com/northaxosky/Kuma)** — a lightweight C++ game engine: **Vulkan** rendering, SDL3 platform layer, resource loading, input, and timing.
-- **[Addictol](https://github.com/Dear-Modding-FO4/Addictol)** — combined Fallout 4 engine fixes, built with the **Dear Modding FO4** group (★23).
-
-**Also worth a look**
-- **[sky-cli](https://github.com/northaxosky/sky-cli)** — a Claude Code-style coding-agent CLI in Rust: tool calling + an agent loop over OpenRouter.
-- **[interpreter-rust](https://github.com/northaxosky/interpreter-rust)** — a tree-walk interpreter for Lox (*Crafting Interpreters*), in Rust.
-- **[Vault](https://github.com/northaxosky/Vault)** — a personal finance dashboard (Next.js + Plaid): budgets, analytics, recurring-charge detection, and alerts.
-- **[fallout4-community-shaders](https://github.com/northaxosky/fallout4-community-shaders)** & **[HouseRules](https://github.com/northaxosky/HouseRules)** — a Community Shaders port and a curated F4SE/MCM configuration mod.
-- **[dot-files](https://github.com/northaxosky/dot-files)** — cross-platform (Windows + WSL) dotfiles managed with chezmoi.
+**Also worth a look** — [interpreter-rust](https://github.com/northaxosky/interpreter-rust) (a Lox tree-walk interpreter in Rust, *Crafting Interpreters*) · [Vault](https://github.com/northaxosky/Vault) (a Next.js + Plaid personal-finance dashboard) · [HouseRules](https://github.com/northaxosky/HouseRules) (a curated F4SE/MCM config mod) · [dot-files](https://github.com/northaxosky/dot-files) (cross-platform Windows + WSL dotfiles via chezmoi).
 
 ## 🔭 Currently focused on
 
@@ -88,5 +115,3 @@ I build across a few lanes — **developer tooling**, **ML systems**, **game tec
 - **Fallout 4 engine work** — combined engine fixes via [Addictol](https://github.com/Dear-Modding-FO4/Addictol), plus performance and crash patches.
 - **Going deeper in Rust** — interpreters, CLIs, and systems tooling.
 - **A terminal-first dev environment** — reproducible across Windows + WSL via dotfiles.
-
-<p align="center"><i>Most of my side projects start from a practical itch — make something faster, automate a workflow, or learn a system deeply enough to bend it.</i></p>
