@@ -49,8 +49,8 @@ I build across a few lanes — **developer tooling**, **ML systems**, **game tec
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=northaxosky&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Kuzey's GitHub stats"/>
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=northaxosky&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top languages"/>
+  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api?username=northaxosky&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Kuzey's GitHub stats"/>
+  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=northaxosky&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top languages"/>
 </p>
 
 <p align="center">
