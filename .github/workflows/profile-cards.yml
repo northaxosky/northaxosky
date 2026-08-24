@@ -1,0 +1,31 @@
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: northaxosky
+          NAME: Kuzey Gök
+          BRANCH_NAME: main
+          THEME: tokyonight
+          UTC_OFFSET: -7
+          EXCLUDE_REPOS: rust-analyzer,skyrim-community-shaders,xz4rust
