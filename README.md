@@ -18,41 +18,25 @@
 
 I usually end up here because an existing tool annoyed me enough to build my own. Right now I'm spending an unreasonable amount of time reverse-engineering Fallout 4's renderer, writing Rust tooling for mod development, and training language models from scratch.
 
-## What I'm working on
+## Projects
 
-### 🎨 [fallout4-community-shaders](https://github.com/northaxosky/fallout4-community-shaders)
+<h3>🎨 <a href="https://github.com/northaxosky/fallout4-community-shaders">fallout4-community-shaders</a> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/> <img src="https://img.shields.io/badge/HLSL-2A0845?style=flat-square" alt="HLSL"/> <img src="https://img.shields.io/github/stars/northaxosky/fallout4-community-shaders?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/></h3>
 
 Reconstructing Fallout 4's rendering pipeline and bringing the Community Shaders model to the Creation Engine. Most days are C++, HLSL, runtime archaeology, and checking assumptions against the game.
 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-<img src="https://img.shields.io/badge/HLSL-2A0845?style=flat-square" alt="HLSL"/>
-<img src="https://img.shields.io/github/stars/northaxosky/fallout4-community-shaders?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
-
-### 🦀 [overseer](https://github.com/northaxosky/overseer)
+<h3>🦀 <a href="https://github.com/northaxosky/overseer">overseer</a> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/ratatui-7C3AED?style=flat-square" alt="ratatui"/> <img src="https://img.shields.io/github/stars/northaxosky/overseer?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/></h3>
 
 A Fallout 4 mod manager in Rust, modeled on the parts of Mod Organizer 2 I actually want: non-destructive installs, transactional deploys, real load-order handling, useful diagnostics, and a terminal UI.
 
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
-<img src="https://img.shields.io/badge/ratatui-7C3AED?style=flat-square" alt="ratatui"/>
-<img src="https://img.shields.io/github/stars/northaxosky/overseer?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
-
-### 🧠 [sky-ai](https://github.com/northaxosky/sky-ai)
+<h3>🧠 <a href="https://github.com/northaxosky/sky-ai">sky-ai</a> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/> <img src="https://img.shields.io/github/stars/northaxosky/sky-ai?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/></h3>
 
 My from-scratch language-model work: a clean-room GPT-2 (124M) reproduction and the training stack around it. The point is to understand everything below `model.generate()`, not just call it.
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/github/stars/northaxosky/sky-ai?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
-
-### 🩹 [Addictol](https://github.com/Dear-Modding-FO4/Addictol)
+<h3>🩹 <a href="https://github.com/Dear-Modding-FO4/Addictol">Addictol</a> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/> <img src="https://img.shields.io/badge/F4SE-6B7280?style=flat-square" alt="F4SE"/> <img src="https://img.shields.io/github/stars/Dear-Modding-FO4/Addictol?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/></h3>
 
 Fallout 4 engine fixes maintained with [Dear Modding FO4](https://github.com/Dear-Modding-FO4): performance work, stability fixes, and crash patches collected in one plugin.
 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-<img src="https://img.shields.io/badge/F4SE-6B7280?style=flat-square" alt="F4SE"/>
-<img src="https://img.shields.io/github/stars/Dear-Modding-FO4/Addictol?style=flat-square&color=3b82f6&label=%E2%98%85" alt="stars"/>
-
-## Things I use
+## Tech
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
@@ -77,7 +61,7 @@ Fallout 4 engine fixes maintained with [Dear Modding FO4](https://github.com/Dea
   <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" alt="Neovim"/>
 </p>
 
-## GitHub by the numbers
+## Stats
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile summary"/>
@@ -86,11 +70,3 @@ Fallout 4 engine fixes maintained with [Dear Modding FO4](https://github.com/Dea
   <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Languages by commit"/>
   <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats"/>
 </p>
-
-## Other things I've built
-
-[Kuma](https://github.com/northaxosky/Kuma), a lightweight Vulkan game engine ·
-[sky-cli](https://github.com/northaxosky/sky-cli), a coding-agent CLI in Rust ·
-[rust-crates](https://github.com/northaxosky/rust-crates), reusable libraries extracted from Overseer ·
-[interpreter-rust](https://github.com/northaxosky/interpreter-rust), a Lox interpreter from *Crafting Interpreters* ·
-[Vault](https://github.com/northaxosky/Vault), a personal-finance dashboard
