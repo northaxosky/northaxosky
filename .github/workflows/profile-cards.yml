@@ -26,6 +26,6 @@ jobs:
           USERNAME: northaxosky
           NAME: Kuzey Gök
           BRANCH_NAME: main
-          THEME: tokyonight
+          THEME: github_dark
           UTC_OFFSET: -7
           EXCLUDE_REPOS: rust-analyzer,skyrim-community-shaders,xz4rust

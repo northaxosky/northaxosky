@@ -64,9 +64,9 @@ I usually end up here because an existing tool annoyed me enough to build my own
 ## Stats
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile summary"/>
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile summary"/>
 </p>
 <p align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Languages by commit"/>
-  <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats"/>
+  <img width="49%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Languages by commit"/>
+  <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats"/>
 </p>
